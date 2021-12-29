@@ -1,0 +1,12 @@
+{
+    "create-knex-config": "npx knex init",
+    "creat-table": "npx knex migrate:make name",
+    "run-migrations": "npx knex migrate:latest ",
+
+
+"migrations":{
+    "directory": "./src/database/migrations"
+  },
+  "useNullAsDefault": true
+
+  }
